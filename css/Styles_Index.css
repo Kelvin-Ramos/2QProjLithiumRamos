@@ -1,0 +1,153 @@
+body {
+    margin:0;
+	text-decoration:none;
+}
+
+header {
+    
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+	font-size:30px;
+	border-bottom:1px solid black;
+	background-color:#767676;
+	color:white;
+}
+
+.Logo{
+	border-radius:20px;
+}
+
+.Author{
+	font-size:20px;
+	margin:auto;
+	color:white;
+}
+
+
+nav{
+	background-color:#444444;
+	font-size:20px;
+	position:sticky;
+	top:0;
+}
+
+nav .Navigation{
+	display: flex;
+	flex-direction:row;
+	justify-content: space-around;
+	border-bottom:1px solid black;
+	padding:10px;
+	background-color:#767676;
+	text-decoration: none;
+	color:white;
+	
+}
+
+
+.first ul {
+	margin-left: 50px;
+	display:none;
+	position:absolute;
+}
+
+nav>div div ul {
+	border:1px solid black;
+	padding:5px;
+	opacity:0.75;
+	background-color:grey;
+}
+nav>div div ul li, nav>div div ul li a{
+	width: 270px; 
+	padding: 5px;
+	color:white;
+}
+
+
+
+nav>div div ul li:hover{
+	background:grey;
+
+}
+
+.first:hover ul{
+	display:block;
+}
+nav .Navigation a:hover{
+	background-color:black;
+}
+
+a:link, a:visited{
+	color:white;
+}
+ .nav{
+width: 100px; 
+text-align: center; 
+padding: 10px; 	
+ }
+.others{
+	position:relative;
+	bottom:10px;
+}
+nav .Breadcrumbs{
+	padding:20px;
+	color:white;
+}
+.link{
+	text-decoration:none;
+	color:black;
+	color:white;
+	list-style:none;
+}
+article{
+	background-color:#444444;
+	padding-bottom:100px
+}
+article .banner {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article .Article{
+	display:flex;
+	justify-content:space-around;
+	color:white;
+}
+
+article .Information{
+	margin:200px 60px 0 60px;
+	text-align:center;
+	font-size:30px;
+	color:white;
+}
+
+article .Title{
+	font-size:100px;
+	font-weight:bold;
+	text-align:center;
+	margin:100px 0 0 0;
+	color:white;
+}
+
+.article img{
+	width:230px;
+	height:230px;
+	object-fit:fill;
+}
+footer{
+	color:white;
+	background-color:#3A3B3C;
+	font-size: 90px;
+	text-align:center;
+	border: 1px solid black;
+	padding:10px;
+}
+footer .link{
+	font-size:20px;
+	display:block;
+	text-align:left;
+}
+
+
+
